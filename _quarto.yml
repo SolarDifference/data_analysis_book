@@ -27,12 +27,11 @@ book:
       chapters:
         - chapter3.qmd
         - chapter4.qmd
-  
+ 
 
 bibliography: references.bib
 
 format:
-
   html:
     theme: cosmo
     author-meta: "Zachary H. Morford and David J. Cox"
@@ -40,7 +39,6 @@ format:
     
   pdf:
     documentclass: scrreprt
-  
 
 editor: visual
 
