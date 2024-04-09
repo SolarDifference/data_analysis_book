@@ -10,8 +10,6 @@ book:
   # These are the core files that are auto-generated
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
   
   # Below is an example of our we can separate out chapters and parts
   # Each section is identified by part:
@@ -19,15 +17,18 @@ book:
   
     - part: part1.qmd
       chapters: 
-    
+        - index.qmd
         - chapter1.qmd
         - chapter2.qmd
-        
-    - part: part2.qmd
-      chapters:
         - chapter3.qmd
         - chapter4.qmd
- 
+        - chapter5.qmd
+        - chapter6.qmd
+        - chapter7.qmd
+        - chapter8.qmd
+        - chapter9.qmd
+        - chapter10.qmd
+        - summary.qmd
 
 bibliography: references.bib
 

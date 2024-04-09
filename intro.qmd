@@ -1,0 +1,49 @@
+---
+title: "Understanding Your Objective"
+format: docx
+editor: visual
+---
+
+## In the Beginning...
+
+Though taboo to openly debate with a children's book writer, we think @Seuss1990 may have gotten it wrong. To be clear, we have no doubt that learning to code and conduct analytics will take you to many exciting places that are difficult to foresee. We also think a stimulating way to spend a casual afternoon involves exploring novel data sets to see what you discover. However, for those likely to have picked up this book, any good research or business project (read likely to be efficiently successful) starts with a clear objective and well-defined deliverable.
+
+This chapter is about three things related to the optimal function of the analytic task at hand. The first two involve figuring out exactly what needs to be done and who will be involved. Oftentimes you might hear seemingly straightforward questions in need of an answer such as "Which patients we do better with?", "Which staff have clients who show better progress?", or "What is the biggest driver of canceled appointments?" "What are current utilization percentages and do some BCBAs manage this better than others?" The precise form of the question is likely to get quite messy once you get into the data. Answering each question is likely impacted by who all is involved in the project. And, finding a useful answer each question will depend on who is using the answer once known. The first two sections of this chapter get at this information. Explicitly, the first two are about clearly defining the deliverable and the roles of each team member.
+
+The third item this chapter is about is scoping your work to fulfill the identified function. Stories have been told of mythical humans exist who have the luxury of meandering through project ideation and framing, who can complete projects on their own schedule, and who can continuously tinker until everything is perfect before publishing it out for the world to see. For the rest of us, deadlines are real. Dissertations need to be done. Projects need to be presented. And, deliverables need to be delivered. All of which needs to be on time and to budget. More directly, once the deliverable is clearly outlined, people want to know when it will be delivered. Thus, in the final section of this chapter, we review how to take the information gathered to determine how long it will take you to do the voodoo that you do so well.
+
+## Specifying the Deliverable
+
+\[Getting to the core question.\]
+
+\[identifying how best to answer: Types of deliverables (e.g., dashboards, insight / learning, data product, decision needs to be made or action needs to be taken.\]
+
+\[Identifying the primary end-user. Who is the audience? What function does the deliverable serve in their daily workflow? How precise does it need to be? Or is directional / order-of-magnitude sufficient.\]
+
+\[Mocking up deliverable to ensure alignment among stakeholders.\]
+
+\[Understanding repeat-ability and refreshment requirements (e.g., one-off requests, ongoing maintenance, iteratively improving projects\]
+
+## Knowing Your Role
+
+-   What is your role as a data analyst?
+
+    -   Assume outside of academia
+
+    -   Who else is on your team? SMEs
+
+    -   Quality validation
+
+    -   Setting expectations
+
+-   Go from business requests to formulating deliverables, timeline, scope
+
+## Chapter Checklist
+
+-   Have some kind of checklist or tool - something tangible to reference
+
+    -   Maybe action item list at the end of each section
+
+```{r}
+1 + 1
+```

@@ -1,4 +1,4 @@
-# Introduction
+# Primer on Machine Learning
 
 This is a book created from markdown and executable code.
 
