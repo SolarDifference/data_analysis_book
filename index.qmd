@@ -1,9 +1,17 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+\[Introduction to the main function of this book.\]
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+\[What is contained in it.\]
 
-```{r}
-1 + 1
-```
+\[What is not contained in it.\]
+
+# Acknowledgements
+
+\[Zach's\]
+
+\[David's\]
+
+# Contributing
+
+\[Info about supporting financially, edits, or authoring.\]
