@@ -1,0 +1,13 @@
+# Accessing Data
+
+From Excel
+
+From Databases
+
+Open Data Sets
+
+Scraping
+
+```{r}
+1 + 1
+```
