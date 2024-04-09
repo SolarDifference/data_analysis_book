@@ -44,6 +44,18 @@ The third item this chapter is about is scoping your work to fulfill the identif
 
     -   Maybe action item list at the end of each section
 
+```{r, include = FALSE}
+
+x <- c(1,2,3,4)
+
+```
+
 ```{r}
-1 + 1
+x
+```
+
+```{python}
+
+
+
 ```
