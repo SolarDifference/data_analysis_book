@@ -2,20 +2,41 @@ project:
   type: book
 
 book:
-  title: "test_book"
-  author: "Norah Jones"
+  title: "Data Analysis for Behavior Analysts"
+  author: "Zachary H. Morford and David J. Cox"
   date: "4/4/2024"
   chapters:
+  
+  # These are the core files that are auto-generated
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+  
+  # Below is an example of our we can separate out chapters and parts
+  # Each section is identified by part:
+  # Each chapter is identified by chapters:
+  
+    - part: part1.qmd
+      chapters: 
+    
+        - chapter1.qmd
+        - chapter2.qmd
+        
+    - part: part2.qmd
+      chapters:
+        - chapter3.qmd
+        - chapter4.qmd
+ 
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    author-meta: "Zachary H. Morford and David J. Cox"
+    callout-appearance: simple
+    
   pdf:
     documentclass: scrreprt
 
