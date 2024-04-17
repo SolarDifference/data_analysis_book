@@ -18,16 +18,19 @@ book:
     - part: part1.qmd
       chapters: 
         - index.qmd
-        - chapter1.qmd
-        - chapter2.qmd
-        - chapter3.qmd
-        - chapter4.qmd
-        - chapter5.qmd
-        - chapter6.qmd
-        - chapter7.qmd
-        - chapter8.qmd
-        - chapter9.qmd
-        - chapter10.qmd
+        - understanding_your_objective.qmd
+        - integrated_developing_environments.qmd
+    - part: part2.qmd
+        - accessing_data.qmd
+        - open_datasets_and_scraping.qmd
+        - data_types_and_data_manipulation.qmd
+        - graphing_and_data_visualization.qmd
+    - part: part3.qmd
+        - primer_on_modeling.qmd
+        - the_analytic_pipeline.qmd
+        - deliverying_the_deliverables.qmd
+        - primer_on_machine_learning.qmd
+        - using_pretrained_models.qmd
         - summary.qmd
 
 bibliography: references.bib
