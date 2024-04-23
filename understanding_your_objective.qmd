@@ -8,17 +8,17 @@ editor: visual
 
 Though taboo to openly debate with a children's book writer, we think @Seuss1990 may have gotten it wrong. To be clear, we have no doubt that learning to code and conduct analytics will take you to many exciting places that are difficult to foresee. We also think a stimulating way to spend a casual afternoon is by exploring novel data sets to see what you discover. However, for those likely to have picked up this book, any good research or business project (read: likely to be efficiently successful) starts with a clear objective and well-defined deliverable.
 
-This chapter is about three things related to the optimal function of any analytic task. The first involves figuring out exactly what needs to be done. Oftentimes you might hear seemingly straightforward questions in need of a data-based answer such as "Which patients do we do better with?", "Which staff have clients who show better progress?", or "What is the biggest driver of canceled appointments?" Just like operational definitions (e.g., citation), data definitions can be nuanced, varied, and change over time. Different ways in which we define different data components of a question will lead to different answers. Thus, the first critical analytic step is to pin down exactly what the analytic deliverable will be.
+This chapter is about three things related to the optimal function of any analytic task. The first involves figuring out exactly what needs to be done. Oftentimes you might hear seemingly straightforward questions in need of a data-based answer such as "Which patients do we do better with?", "Which staff have clients who show better progress?", or "What is the biggest driver of canceled appointments?" Just like operational definitions (e.g., citation), data definitions can be nuanced, varied, and change over time. Different ways in which we define different data components of a question will lead to different answers. <!-- Maybe rephrase? "The way we define our data components will affect the answer we get from our analysis --> Thus, the first critical analytic step is to pin down <!-- "... the exact analytic question and deliverable." --> exactly what the analytic deliverable will be.
 
-The second item this chapter is about is clearly specifying out who will be involved. This comes in two forms. First, who will be involved in actually pulling off the analytic project so that the deliverable can be, well, delivered. Second, who will use the answer once known and how will use it. As a question, what is the function of these data in the end-users workflow? To meet this function well, analytic projects need to clearly identify the roles of each team member in delivering the deliverable and how the deliverable will be used once delivered.
+The second item this chapter is about is clearly specifying out who will be involved in the process. This comes in two forms. First, who will be involved in actually pulling off the analytic project so that the deliverable can be, well, delivered. Second, who will use the answer once known and how will use it. As a question, what is the function of these data in the end-users workflow? To meet this function well, analytic projects need to clearly identify the roles of each team member in the analytic process and how the deliverable will be used once the process is completed. <!-- Do you think making reference to process maps would be helpful here? Could be useful in cases where the # of stakeholders is much higher -->
 
-The third item this chapter is about is scoping your work to fulfill the identified function. Stories have been told of mythical humans who luxuriously meander through project ideation and framing, who can complete projects on their own schedule and at their own pace, and who can continuously tinker until everything is exactingly perfect. For the rest of us, deadlines are real. Dissertations need to be done. Projects need to be presented. And, deliverables need to be delivered. All of which need to be on time and to budget. Once an analytic deliverable is clearly outlined, people want to know when it will be delivered. Thus, the final section of this chapter reviews how to take the information gathered about deliverables and roles to determine how long it will take you to do the voodoo that you do so well.
+The third item this chapter is about is scoping your work to fulfill the identified function. Stories have been told of mythical humans who luxuriously meander through project ideation and framing, who can complete projects on their own schedule and at their own pace, and who can continuously tinker until everything is exactingly perfect. For the rest of us, deadlines are real. Dissertations need to be done. Projects need to be presented. And, data need to be delivered. All of which need to be on time and to budget. Once an analytic deliverable is clearly outlined, people want to know when it will be delivered. Thus, the final section of this chapter reviews how to take the information gathered about deliverables and roles to determine how long it will take you to do the voodoo that you do so well.
 
 ## Specifying the Deliverable
 
 Specifying the deliverable is an act of translation. Specifically, translating someone's question about the world into two components: (1) the data that can best answer the question, and (2) the analytic method that can best answer the question.
 
-### Getting the Best Data.
+### Getting the Best Data
 
 Identifying the data that can best answer an analytic question might be a new skill for some behavior analysts. It is true that behavior analysts are trained in how to create operational definitions for behaviors of interest and intervention conditions (e.g., baseline vs. DRA). That is, given something we want to track or know about, behavior analysts are trained to define exactly what the behavior or environmental event looks like. In so doing, relatively precise data can be collected specific to the occurrence of a phenomenon (e.g., frequency, duration, latency, treatment fidelity). Note, however, this is a future-oriented task. I have something I am interested in. I develop a definition. I then collect data to answer that specific question (e.g., "What is the function of a behavior?" or "What is the client's current manding repertoire?"). This is the common approach in clinical and research settings.
 
@@ -28,9 +28,45 @@ The two paragraphs above highlight that conducting analytics in practice may req
 
 The main takeaway of this section is that we rarely have access to data that perfectly matches a question in need of a data-based answer. This makes identifying the "best" data set a relative term. It certainly is unlikely to be the ideal data set (and this day may never come). But, by looking at what is available, we can identify what data most closely matches the question at hand, what questions are possible to answer with the data we have, and how we might want to change our data collection systems moving forward. In short, matching your data to a question is likely to shape exactly what deliverable(s) is (are) possible.
 
-### Choosing the Best Method.
+### Choosing the Best Method
 
 \[identifying how best to answer: Types of deliverables (e.g., dashboards, insight / learning, data product, decision needs to be made or action needs to be taken.\]
+
+<!-- Do we need to differentiate between a dashboard and a report? One thing Kerri (my boss) brought up when she first joined Centria was that most of what we were using that we called "dashboards" were actually reports. She saw a "dashboard" as an overview you can look at briefly to get the pulse of what's going on. A report, in contrast, is a more detailed deep-dive into the data. I'm actually not sure what the consensus is on how those are defined. -->
+
+<!-- Let's come up with something like this, but for data products! -->
+
+<https://www.ml4devs.com/images/illustrations/data-viz-cheatsheet-extreme-presentation-method.webp>
+
+![](images/data-viz-cheatsheet-extreme-presentation-method.webp)
+
+I also like this one ...
+
+![](images/2552_What-Makes-a-Good-Infoviz-frame01-1009490770.png)
+
+So .... something like this.
+
+Considerations for the method:
+
+-   Who is/are your audience(s)?
+
+-   What is the function of the deliverable?
+
+-   What and how much information do you have available?
+
+    -   Are the data complete?
+
+-   How much time do you have to complete the analysis?
+
+-   Does the analysis need to be repeatable or refresh?
+
+    -   One-off requests
+
+    -   Deliverables requiring on-going maintenance
+
+    -   Deliverables with iterative improvements
+
+<!-- As I'm thinking through these, I'm thinking we should include some content around how important it is to be clear about what you can't do. E.g., if you don't have enough data, the data aren't complete enough, or you don't have enough time, as the analyst you should be able to push back on the project requirements, and perhaps even the scope of the deliverable -->
 
 \[Identifying the primary end-user. Who is the audience? What function does the deliverable serve in their daily workflow? How precise does it need to be? Or is directional / order-of-magnitude sufficient.\]
 
